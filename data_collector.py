@@ -4,7 +4,7 @@ import json
 class ReportDataCollector:
     """
     Report Data Collector for Email (RDCE).
-    This code assumes that the write_encrypted_data function takes the data to be encrypted (as a string), the file path, and the key path as arguments, and handles the encryption and file writing
+    This code assumes that the write_encrypted_data  function takes the data to be encrypted (as a string), the file path, and the key path as arguments, and handles the encryption and file writing
     """
     def __init__(self):
         self.data = {}
