@@ -3,3 +3,4 @@ build/
 *.exe
 token.json
 credentials.json
+credentials_old_1201.json
