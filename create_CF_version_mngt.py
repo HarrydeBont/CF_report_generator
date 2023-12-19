@@ -139,5 +139,5 @@ if __name__ == '__main__':
     tester, developer, foo = get_program_mode()
     if developer:
         version_info = read_latest_version_info()
-        version = CF_report_major("First automated version, on CF_report_generator with excluding .gitignore attempt 2", 'D')
+        version = CF_report_minor("test", 'D')
     print(f'Version CF_report_major {version}')
